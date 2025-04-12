@@ -1,23 +1,23 @@
-# clouldflare-free-ai
+#cloudflare-free-ai
 
-## 部署
+## Déploiement
 
 ``` bash
-git clone <本仓库>
+git clone <ce dépôt>
 ```
 
 ```bash
-# 安装 wrangler
+# Installer Wrangler
 npm install -u -g wrangler
-# 登录 cf
-wrangler login
-# pnpm i
-pnpm i
-# 部署, 部署过程中会提示输入一些 config
-pnpm pages:deploy
+# Connexion cf
+connexion wrangler
+# pnpm je
+pnpm je
+# Déploiement, vous serez invité à saisir certaines configurations pendant le processus de déploiement
+pages pnpm : déployer
 ```
 
-部署完成后，打开 cloudflare 网站，找到你的 worker, 点击 function, 绑定 AI
+Une fois le déploiement terminé, ouvrez le site Web Cloudflare, recherchez votre travailleur, cliquez sur la fonction et liez l'IA
 
 ![1](readme-assets/1.jpg)
 ![2](readme-assets/2.jpg)
